@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="form.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container ">
+        <!-- <header class="header"> -->
+            <h1>
+                Survey Form 
+            </h1>
+            <p>
+                Kindly Fill the Below Form.
+            </p>
+        <!-- </header> -->
+        <form action="" id="survey-form">
+
+            <!-- Text section -->
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" class="formControl" placeholder="Enter your name" required>
+            </div>
+            <!-- end of text section -->
+
+            <!-- Type Email section -->
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="formControl" placeholder="Enter your Email" required>
+            </div>
+            <!-- end of Email section -->
+            
+            <!-- Age Section -->
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" class="formControl" placeholder="Enter your Age" required>
+            </div>
+            <!-- End of Age Section -->
+
+            <div class="form-group">
+                <label for="Comment">Comment:</label>
+                <textarea id="comment" name="comment" rows="6" cols="40" placeholder="Enter your Comments" required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn">Submit</button>
+            </div>
+            <!-- End of Submit button -->
+        </form>
+    </div>
+</body>
+</html>
